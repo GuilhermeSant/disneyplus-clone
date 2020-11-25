@@ -12,10 +12,38 @@ html,body{
 }
 
 body{
-    background-color: rgb(10, 10, 22);
+    background-color:#040714;
+    color: white;
+    font-family: Avenir Roman,sans-serif;
+}
+
+.enter-login{
+    position: fixed;
+    margin-left: 92%;
+    margin-top: 1%;
+    
+}
+
+.enter-login button{
+    padding: 0.9vh 1vw;
+    text-transform: uppercase;
+    font-size: 1em;
+    background-color:#040714c2;
+    border-color: #040714c2;
     color: white;
 }
 
+.price-info{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+
+
 .disneyLogo{
     width: 10%;
+    z-index: 1;
 }
+
